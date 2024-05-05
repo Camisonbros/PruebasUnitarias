@@ -19,6 +19,7 @@ public class Main {
     	double[] vec=new double[n];
     	for(int i=0; i<n; i++){
     	   System.out.println("Introduzca un número");
+           // Indicamos que introducza un numero / Agregando cambios
     	   sc=new Scanner(System.in);
            vec[i]=sc.nextFloat();
     	}
