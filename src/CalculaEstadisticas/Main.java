@@ -11,13 +11,14 @@ public class Main {
      
     public static void main(String[] args) {
     	        
-        System.out.println("Introduzca el tamaño de su secuencia de los numeros");
+        System.out.println("Introduzca el tamaño de su secuencia numeros");
+        // Indicamos los cambios para secuencia de números
     	Scanner sc=new Scanner(System.in);
         
     	int n=sc.nextInt();
     	double[] vec=new double[n];
     	for(int i=0; i<n; i++){
-    	   System.out.println("Introduzca un numero");
+    	   System.out.println("Introduzca un número");
     	   sc=new Scanner(System.in);
            vec[i]=sc.nextFloat();
     	}
